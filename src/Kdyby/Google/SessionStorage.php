@@ -26,8 +26,9 @@ use Nette;
  * @property string $user_id
  * @property string $last_request
  */
-class SessionStorage extends Nette\Object
+class SessionStorage
 {
+	use Nette\SmartObject;
 
 	/**
 	 * @var \Nette\Http\SessionSection
