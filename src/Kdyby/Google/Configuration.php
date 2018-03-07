@@ -20,7 +20,7 @@ use Nette\Http\Url;
  */
 class Configuration
 {
-	use Nette\SmartObject;
+	use \Nette\SmartObject;
 
 	/**
 	 * @var string

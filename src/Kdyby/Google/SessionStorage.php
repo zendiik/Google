@@ -28,7 +28,7 @@ use Nette;
  */
 class SessionStorage
 {
-	use Nette\SmartObject;
+	use \Nette\SmartObject;
 
 	/**
 	 * @var \Nette\Http\SessionSection
