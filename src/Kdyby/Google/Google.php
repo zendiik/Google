@@ -37,7 +37,7 @@ if (!class_exists('Tracy\Debugger')) {
  */
 class Google
 {
-	use Nette\SmartObject;
+	use \Nette\SmartObject;
 
 	/**
 	 * @var \Nette\Application\Application
